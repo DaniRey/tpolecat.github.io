@@ -123,6 +123,8 @@ hi
 
 Note that unlike the method (which has *no* parameter list) the function value has an *empty* parameter list.
 
+Help readers of your code distinguish side effect free acessor methods from methods with side effects. To do so the accessors should omit parentheses (have no paramter list), while methods with side effects should use parantheses (have an empty parameter list).
+
 #### Multiple Parameters
 
 Methods with multiple parameters expand to equivalent multi-parameter functions:
